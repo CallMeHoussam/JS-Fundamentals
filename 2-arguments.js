@@ -1,7 +1,11 @@
-let args = process.argv.slice(2);
-if (args == 0) {
+let argc = process.argv.slice(2);
+if (argc == 0) {
     
     console.log("No argument");
+}
+else if(argc == 1)
+{
+    console.log("Argument found");
 }
 else
 {
