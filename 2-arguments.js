@@ -1,9 +1,9 @@
-let argument;
-if (argument == str) {
-    console.log("Argument found");
+let args = process.argv.slice(2);
+if (args == 0) {
     
+    console.log("No argument");
 }
 else
 {
-    console.log("No argument");
+    console.log("Argument found");
 }
